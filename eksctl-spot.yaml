@@ -11,4 +11,4 @@ managedNodeGroups:
 - name: spot-1
   spot: true
   ssh:
-    publicKeyName: kubernetes #place your key
+    publicKeyName: docker_2 #place your key
