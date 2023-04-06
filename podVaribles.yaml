@@ -1,15 +1,15 @@
 apiVersion: v1
 kind: pod 
 metadata:
-  name: nginx
+  name: env
 spec:
   containers:
     - name: nginx
       image: nginx
       env: 
-      - name: config-map
-        course: docker
-        time: 8pm
-        
+      - name: conurse
+        value: docker
+      - name: content
+        value: docker
 
       
